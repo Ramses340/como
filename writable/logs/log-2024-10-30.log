@@ -1,0 +1,32 @@
+CRITICAL - 2024-10-30 15:40:23 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "compone2222ntes/header.php"
+[Method: GET, Route: plantilla]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('compone2222ntes/header.php')
+ 2 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('compone2222ntes/header', null, true)
+ 3 APPPATH\Views\plantilla.php(22): CodeIgniter\View\View->include('compone2222ntes/header')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\Users\\alumnog\\Desktop\\laragon-6.0.0\\www\\fotobook\\app\\Views\\plantilla.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('plantilla', [], true)
+ 7 APPPATH\Controllers\Home.php(66): view('plantilla')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->plantilla()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-30 15:41:14 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "componentes/headerjkk.php"
+[Method: GET, Route: plantilla]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('componentes/headerjkk.php')
+ 2 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('componentes/headerjkk', null, true)
+ 3 APPPATH\Views\plantilla.php(22): CodeIgniter\View\View->include('componentes/headerjkk')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\Users\\alumnog\\Desktop\\laragon-6.0.0\\www\\fotobook\\app\\Views\\plantilla.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('plantilla', [], true)
+ 7 APPPATH\Controllers\Home.php(66): view('plantilla')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->plantilla()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
